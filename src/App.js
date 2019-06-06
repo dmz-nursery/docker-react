@@ -16,7 +16,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Just a change to trigger a redploy
         </a>
       </header>
     </div>
