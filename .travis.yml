@@ -7,4 +7,4 @@ before_install:
 script:
   # -- --coverage makes 'npm run test' exit (with status 0) once the test run is finished
   # istead of waiting for user input
-  - docker run dmitrybunin/docker-react npm run test -- --coverage 
+  - docker run -e CI=true dmitrybunin/docker-react npm run test -- --coverage 
